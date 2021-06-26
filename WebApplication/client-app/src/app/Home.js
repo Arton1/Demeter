@@ -4,7 +4,5 @@ import "./Home.css";
 export default function Home(props){
     return <div className="home">
         <h1>Strona początkowa</h1>
-        <Link to="/login">Kliknij, aby się zalogować</Link>
-        <Link to="/register">Kliknij, aby się zarejestrować</Link>
     </div>
 }

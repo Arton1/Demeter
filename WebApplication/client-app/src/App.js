@@ -9,11 +9,13 @@ import HeaderBar from "./app/header/HeaderBar";
 function App() {
   return (<>
       <HeaderBar/>
-      <Switch>
-        <Route path="/login" component={Login}/>
-        <Route path="/register" component={Register} />
-        <Route path="/" component={Home}/>
-      </Switch>
+      <div className="body">
+          <Switch>
+            <Route path="/login" component={Login}/>
+            <Route path="/register" component={Register} />
+            <Route path="/" component={Home}/>
+          </Switch>
+      </div>
     </>);
 }
 

@@ -33,6 +33,18 @@
     outline: 0;
 }
 
-.listItem.navLink:hover {
+.listItem:hover {
     color: gray;
+}
+
+.itemsContainer {
+    width: 100%;
+    display: flex;
+}
+
+@media (min-width: 1200px){
+    .itemsContainer {
+        width: 1230px;
+        margin: 0 auto;
+    }
 }
