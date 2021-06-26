@@ -1,6 +1,7 @@
-﻿import {AppBar, AppBarSection, TabStrip, TabStripTab} from "@progress/kendo-react-layout";
+﻿import {AppBar, AppBarSection} from "@progress/kendo-react-layout";
 import {Link, NavLink} from "react-router-dom";
 import "./header.css";
+import SearchBar from "../../features/foodSearch/searchBar";
 
 const buttons = [
     {
@@ -29,9 +30,14 @@ export default function HeaderBar(props){
     return <AppBar className="bar">
         <div className={"itemsContainer"}>
             <AppBarSection>
-                <Link className="navLink clickable" to="/"><h2 className="title">Hello</h2></Link>
+                <Link className="navLink clickable" to="/">
+                    <h2 className="title">Hello</h2>
+                </Link>
             </AppBarSection>
-            <AppBarSection style={{marginLeft: "auto"}}>
+            <AppBarSection>
+                <SearchBar/>
+            </AppBarSection>
+            <AppBarSection>
                 <NavButtonList buttons={buttons}/>
             </AppBarSection>
         </div>
