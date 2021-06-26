@@ -1,7 +1,7 @@
-import {Switch, Route, Link, NavLink} from "react-router-dom";
-import Login from "./features/authentication/Login";
+import {Switch, Route} from "react-router-dom";
+import Login from "./features/authentication/login/Login";
 import Home from "./app/Home"
-import Register from "./features/authentication/Register"
+import Register from "./features/authentication/registration/Register"
 
 function App() {
   return (<Switch>

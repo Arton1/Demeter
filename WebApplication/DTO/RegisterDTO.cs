@@ -2,7 +2,7 @@
 {
     public class RegisterDTO
     {
-        public string Login;
-        public string Password;
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }
