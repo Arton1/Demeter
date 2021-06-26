@@ -1,0 +1,38 @@
+﻿.bar {
+    padding: 0;
+}
+
+.title {
+    margin: 0 1em;
+}
+
+.navButtonList {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 0 2em;
+}
+
+.clickable {
+    padding: 1em;
+}
+
+.navButtonList > li {
+    
+}
+
+.selectedButton {
+    font-weight: bolder;
+}
+
+.navLink {
+    text-decoration: inherit;
+    color: inherit;
+    outline: 0;
+}
+
+.listItem.navLink:hover {
+    color: gray;
+}
