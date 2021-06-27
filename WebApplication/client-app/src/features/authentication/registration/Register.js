@@ -1,8 +1,9 @@
 ﻿import RegistrationForm from "./RegistrationForm";
+import "./Register.css"
 
 export default function Register(props){
-    return (<div className="login">
-        <h1>Strona rejestracji</h1>
-        <RegistrationForm/>
+    return (<div className="register">
+        <h1>Rejestracja</h1>
+        <RegistrationForm className="registrationForm"/>
     </div>)
 }

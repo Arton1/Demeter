@@ -31,7 +31,7 @@ export default function HeaderBar(props){
             <div className={"itemsContainer"}>
                 <AppBarSection className="barSection">
                     <Link className="navLink clickable" to="/">
-                        <h2 className="title">Hello</h2>
+                        <h2 className="title">Demeter</h2>
                     </Link>
                 </AppBarSection>
                 <AppBarSection className="barSection">

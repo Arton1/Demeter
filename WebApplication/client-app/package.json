@@ -9,6 +9,7 @@
     "@progress/kendo-react-form": "^4.7.0",
     "@progress/kendo-react-inputs": "^4.7.0",
     "@progress/kendo-react-intl": "^4.7.0",
+    "@progress/kendo-react-labels": "^4.7.0",
     "@progress/kendo-react-layout": "^4.7.0",
     "@progress/kendo-react-progressbars": "^4.7.0",
     "@progress/kendo-theme-default": "^4.39.0",

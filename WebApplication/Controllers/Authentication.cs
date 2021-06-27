@@ -43,9 +43,9 @@ namespace WebApplication.Controllers
                 UserName = credentials.UserName,
             };
             var result = await _userManager.CreateAsync(user, credentials.Password);
-            if (result.Succeeded)
-                return Ok();
-            return Unauthorized(result.Errors);
+            if (!result.Succeeded)
+                return Unauthorized(result.Errors);
+            return Ok();
         }
     }
 }
