@@ -1,5 +1,6 @@
 import {Switch, Route} from "react-router-dom";
 import "@progress/kendo-theme-default/dist/all.css"
+import "./index.css";
 
 import Login from "./features/authentication/login/Login";
 import Home from "./app/Home"

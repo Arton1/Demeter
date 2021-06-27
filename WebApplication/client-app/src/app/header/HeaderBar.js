@@ -28,18 +28,18 @@ function NavButtonList(props) {
 
 export default function HeaderBar(props){
     return <AppBar className="bar">
-        <div className={"itemsContainer"}>
-            <AppBarSection>
-                <Link className="navLink clickable" to="/">
-                    <h2 className="title">Hello</h2>
-                </Link>
-            </AppBarSection>
-            <AppBarSection>
-                <SearchBar/>
-            </AppBarSection>
-            <AppBarSection>
-                <NavButtonList buttons={buttons}/>
-            </AppBarSection>
-        </div>
-    </AppBar>;
+            <div className={"itemsContainer"}>
+                <AppBarSection className="barSection">
+                    <Link className="navLink clickable" to="/">
+                        <h2 className="title">Hello</h2>
+                    </Link>
+                </AppBarSection>
+                <AppBarSection className="barSection">
+                    <SearchBar/>
+                </AppBarSection>
+                <AppBarSection className="barSection">
+                    <NavButtonList buttons={buttons}/>
+                </AppBarSection>
+            </div>
+        </AppBar>;
 }

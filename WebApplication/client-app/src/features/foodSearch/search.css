@@ -1,6 +1,6 @@
 ﻿
 .searchBar {
-    
+    display: flex;
 }
 
 .searchBar > * {
@@ -8,9 +8,9 @@
 }
 
 .search-input {
-    width: 15em;
+    flex: 1 1 15em;
 }
 
 .search-button {
-    width: 6em;
+    flex: 0 4 6em;
 }

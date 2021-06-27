@@ -35,12 +35,23 @@
 .itemsContainer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
-.searchBar {
-    flex-grow: 1;
-    flex-basis: 15em;
+.barSection {
+    flex: 1;
+    justify-content: center;
+}
+
+.barSection > .searchBar {
+    flex: 0 1 90%;
+}
+
+.barSection:first-child {
+    justify-content: flex-start;
+}
+
+.barSection:last-child {
+    justify-content: flex-end;
 }
 
 @media (min-width: 1200px){
